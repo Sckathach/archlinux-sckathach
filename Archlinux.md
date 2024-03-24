@@ -36,8 +36,8 @@ mount /dev/sda2 /mnt
 
 ## Install
 ```shell
-pacman -S freetube baobab discord bat obsidian redshift mattermost-desktop jdk-openjdk jupyter-notebook
-yay -S jetbrains-toolbox asusctl messenger-nativefier whatsdesk-bin syncthingtray
+pacman -S baobab discord bat obsidian redshift mattermost-desktop jdk-openjdk jupyter-notebook
+yay -S freetube jetbrains-toolbox asusctl messenger-nativefier whatsdesk-bin syncthingtray
 
 pacman -S xsel rlwrap # Required for cht.sh
 curl -s https://cht.sh/:cht.sh | sudo tee /usr/local/bin/cht.sh && sudo chmod +x /usr/local/bin/cht.sh
