@@ -8,7 +8,7 @@ sudo locale-gen
 
 ## Install and configure Ibus
 ```sh
-sudo pacman -S ibus ibus-hangul
+sudo pacman -S ibus ibus-hangul noto-fonts-cjk
 ```
 
 ### Configure
