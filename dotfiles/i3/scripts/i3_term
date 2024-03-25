@@ -15,6 +15,9 @@ elif [ "$1" == "--full" ]; then
 			  -o window.startup_mode=fullscreen \
 			  window.padding.x=30 window.padding.y=30 \
 			  window.opacity=0.95 font.size=14
+elif [ "$1" == "--hyper" ]; then
+    alacritty --config-file "$CONFIG" -e zsh -c 'hyper_zsh && exec zsh'
 else
 	alacritty --config-file "$CONFIG"
 fi
+
